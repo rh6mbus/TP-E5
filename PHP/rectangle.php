@@ -7,9 +7,11 @@ class Rectangle{
         $this->b=$b;
     }
 function surface(){
-    return $this->a*this->b;
+    return $this->a*$this->b;
 }
 }
+
+//programe de test
 $R=new Rectangle(2,3);
 echo $R->surface();
 ?>

@@ -16,7 +16,7 @@ function somme(){
 
 }
 
-
+// Programme de test
 $S=new Somme(2,6);
 echo $S->somme();
 ?>
